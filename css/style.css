@@ -66,7 +66,16 @@ a {
 
 
 .second {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
     display: none;
+    padding: 20px;
+}
+
+.double:hover .second {
+    display: inline;
 }
 
 .rosso {
