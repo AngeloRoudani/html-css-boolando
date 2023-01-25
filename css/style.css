@@ -33,6 +33,11 @@ body {
     font-size: 14px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .logo_b {
     width: 100px;
 }
@@ -40,3 +45,27 @@ body {
 .icone_top i {
     padding-left: 10px;
 }
+
+.products {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: calc(100% / 3);
+}
+
+.photo {
+    width: 50%;
+}
+
+
+.second {
+    display: none;
+}
+
+
+
+
