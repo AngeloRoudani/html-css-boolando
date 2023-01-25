@@ -57,6 +57,7 @@ a {
 .cards {
     width: calc(100% / 3);
     padding: 20px;
+    position: relative;
 }
 
 .photo {
@@ -68,6 +69,32 @@ a {
     display: none;
 }
 
+.rosso {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    position: absolute;
+    bottom: 150px;
+}
+
+.verde {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    display:  inline-block;
+    position: absolute;
+    bottom: 150px;
+    left: 75px;
+}
+
+.alone {
+    left: 20px;
+}
 
 
 
