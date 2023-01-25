@@ -10,6 +10,11 @@ body {
 
 .topbar {
     background-color: rgb(255, 105, 0);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 4;
 }
 
 .menu {
