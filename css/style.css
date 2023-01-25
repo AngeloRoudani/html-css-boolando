@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.topbar {
+    background-color: rgb(255, 105, 0);
+}
+
+.menu {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gender ul {
+    list-style: none;
+}
+
+.gender ul li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.logo_b {
+    width: 100px;
+}
+
+.icone_top i {
+    padding-left: 10px;
+}
